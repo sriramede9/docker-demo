@@ -41,7 +41,9 @@ Use This to set Active Profile
 
 ## docker run -e "SPRING_PROFILES_ACTIVE=dev" -p 8800:8080 -t demo-docker:latest 
 
- 
+### To Run in detached mode
+
+ ## docker run -e "SPRING_PROFILES_ACTIVE=dev" -p 8800:8080 -d demo-docker:latest 
 
 Please refer to : Dockerize - reference - spring 
 
